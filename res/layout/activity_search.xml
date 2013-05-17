@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+               
+        <TextView 
+            android:text="@string/title_activity_search"
+            style="@style/HeaderText"
+		    android:layout_width="200dip"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dip"
+		    android:paddingLeft="10dip"
+		    android:paddingTop="3dip"
+		    android:textSize="25sp"
+		    android:gravity="left"
+		    android:id="@+id/searchHead"
+            	/>
+        <TextView 
+            android:text="@string/awal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            	/>
+	   	<Spinner 
+	   	    android:id="@+id/KotaAwal"
+	       	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content"
+	        
+           	android:layout_marginBottom="3pt"
+	   	    />
+	   	<TextView 
+            android:text="@string/tujuan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	
+            	/>
+	   	<Spinner 
+	   	    android:id="@+id/tujuan"
+	       	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content"
+	       	android:layout_marginBottom="3pt"
+	       		/>
+		<LinearLayout 
+	    	
+			android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+	    	<CheckBox 
+	    	    android:id="@+id/ChekWaktu"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	
+            	/>
+	   		<TextView 
+	   	    	android:text="@string/waktu"
+	   	    	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+           		/>
+		</LinearLayout>
+		<RadioGroup 
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:id="@+id/waktu"
+		    android:orientation="horizontal"
+		    >
+		    <RadioButton 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/siang"
+		        android:text="@string/siang"
+		        android:layout_marginRight="12pt"
+		        android:onClick="onRadioButtonClicked"
+		        />
+		   	<RadioButton 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/malam"
+		        android:text="@string/malam"
+		        android:onClick="onRadioButtonClicked"
+		        />
+		    
+		</RadioGroup>
+		
+		<LinearLayout 
+	    	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+	    	<CheckBox 
+	    	    android:id="@+id/ChekJenisKendaraan"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:checked="false"
+            	/>
+	   		<TextView 
+	   	    	android:text="@string/jenis_kendaraan"
+	   	    	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+	   	    	/>
+		</LinearLayout>
+
+		<Spinner
+		    android:id="@+id/JenisKendaraan"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		   	/>
+
+		<LinearLayout 
+	    	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+	    	<CheckBox 
+	    	    android:id="@+id/ChekAkumulasiBiaya"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:checked="false"
+            	/>
+	   		<TextView 
+	   	    	android:text="@string/akumulasi"
+	   	    	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+	   	    	/>
+		</LinearLayout>
+		<Spinner 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/AkumulasiBiaya1"
+
+		    />
+		<LinearLayout 
+	    	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+			<Button 
+			    android:id="@+id/btnSearch"
+			    android:text="@string/search"
+			    android:layout_height="wrap_content"
+			    android:layout_width="fill_parent"
+			    android:textSize="20sp"
+			    android:layout_marginTop="20pt"
+			    android:layout_marginBottom="20pt"
+			    android:background="@drawable/bg_btn"
+			    android:gravity="center|center_vertical"
+			    
+			    
+		   	
+		  	  />
+		</LinearLayout>
+        
+    </LinearLayout>
+</ScrollView>

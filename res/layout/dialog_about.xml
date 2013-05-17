@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:padding="5dip"
+        android:background="@drawable/dialog_bg"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/aboutTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:gravity="left"
+            android:paddingLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/about"
+            android:textColor="#556644"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom|center"
+            android:padding="15dip"
+            android:text="@string/about_foot" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_close"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginLeft="-15dip"
+        android:layout_marginTop="-15dip"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:padding="2dip"
+        android:text="X"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

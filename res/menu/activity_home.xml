@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Search"
+          android:icon="@drawable/search"
+          android:title="@string/search"
+          />
+    <item android:id="@+id/about"
+          android:icon="@drawable/about"
+          android:title="@string/about"
+          />
+    <item android:id="@+id/view_city"
+          android:icon="@drawable/view_city"
+          android:title="@string/view_city"
+          />
+    <item android:id="@+id/user"
+          android:icon="@drawable/user_profile"
+          android:title="@string/user_acount"
+          />
+    <item android:id="@+id/log_out"
+          android:icon="@drawable/log_out"
+          android:title="@string/log_out"
+          />
+    <item android:id="@+id/exit"
+          android:icon="@drawable/exit"
+          android:title="@string/exit"
+          />
+</menu>
