@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bali-Java Travel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Back</string>
+    <string name="title_activity_login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="akumulasi">Range Budget</string>
+    <string name="search">Search</string>
+    <string name="jenis_kendaraan">Vehicle Type</string>
+    <string name="siang">Day</string>
+    <string name="malam">Night</string>
+    <string name="tujuan">Destination</string>
+    <string name="awal">Your City</string>
+    <string name="waktu">Time</string>
+    <string name="login">Login</string>
+    <string name="loading">Loading</string>
+    <string name="reg_mail">Register New Mail Address</string>
+    <string name="conf_pass">Repeat Password</string>
+    <string name="save">Save</string>
+    <string name="old_pass">Old Password</string>
+    <string name="refresh">Tap To Retry</string>
+    <string name="back">Back</string>
+
+    <string-array name="jenis_kendaraan_array">
+        <item></item>
+        <item> Train</item>
+        <item> Bus</item>
+        <item> Travel</item>
+        <item> Airplane</item>
+    </string-array>
+    <string-array name="akumulasi_array">
+        <item></item>
+        <item>to 50.000</item>
+        <item>50.000 to 100.000</item>
+        <item>100.000 to 200.000</item>
+        <item>200.000 to 500.000</item>
+        <item>More than 500.000</item>
+    </string-array>
+
+    <string name="about">About</string>
+    <string name="about_foot">Copyright © 2012 qin.w3x@gmail.com</string>
+    <string name="about_foot2">all right reserved</string>
+    <string name="reg">Registrasi</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="splash">WELCOME</string>
+    <string name="registrasi">Have Account?</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_registrasi">Registrasi</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_datakota">Data Kota</string>
+    <string name="mail_about">qin.w3x@gmail.com</string>
+    <string name="fb_about">a.safetroublemaker</string>
+    <string name="ym_about">arif_shodiq@rocketmail.com</string>
+    <string name="kaskus_about">shodiqien</string>
+    <string name="view_city">View City</string>
+    <string name="log_out">Log Out</string>
+    <string name="user_acount">Profile</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_result_search">ResultSearchActivity</string>
+    <string name="alternatif">Find Alternatif Route</string>
+    <string name="bus">BUS</string>
+    <string name="kereta">TRAIN</string>
+    <string name="travel">TRAVEL</string>
+    <string name="airplane">AIRPLANE</string>
+    <string name="title_activity_result_alternative">Result Alternative</string>
+    <string name="title_activity_tab_result_alternatif">TabResultAlternatif</string>
+    <string name="title_activity_alternatif_kota1">AlternatifKota1</string>
+    <string name="title_activity_alternatif_kota2">AlternatifKota2</string>
+    <string name="_">" "</string>
+    <string name="title_activity_user_profile">User Profile</string>
+    <string name="title_activity_request_time_out">Request Time Out</string>
+    <string name="title_activity_pesawat_tab">PesawatTabActivity</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_bali_java__controler">BaliJava_Controler</string>
+
+</resources>

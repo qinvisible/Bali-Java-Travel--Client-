@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/transparent"
+    >
+    <TextView
+        style="@style/HeaderText"
+	    android:layout_width="200dip"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dip"
+	    android:paddingLeft="10dip"
+	    android:textSize="25sp"
+	    android:gravity="left"
+        android:id="@+id/helpHead"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginBottom="5dip"
+        android:singleLine="false"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/search_help"
+        
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="-5dip"
+        android:paddingLeft="-5dip"
+        android:gravity="right"
+        android:drawableRight="@drawable/view_city_help"
+        android:background="@android:color/transparent"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="1dip"
+        android:drawableRight="@drawable/profile_help"
+        android:background="@android:color/transparent"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dip"
+        android:layout_marginLeft="0dip"
+        
+        android:drawableRight="@drawable/logout_help"
+        android:background="@android:color/transparent"
+        android:gravity="right"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|right"
+        >
+
+        <ImageView
+            android:id="@+id/close_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/close_help"
+            android:background="@android:color/transparent"
+            android:contentDescription="@drawable/help"
+            />
+        
+    </RelativeLayout>
+
+</LinearLayout>
